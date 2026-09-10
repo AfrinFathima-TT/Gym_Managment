@@ -101,18 +101,18 @@ class GymMemberManagement(DbConnect):
 
 
 
-connection_instance = DbConnect()
-print(connection_instance.get_connected())
-
-member_instance = GymMemberManagement()
-# member_instance.get()
-# member_instance.post(Name = "Nayana",Place = "Thrissur",Mobile = "98904369762",Plan = "1 Month",Fee = 2000,Joined_date= datetime.datetime.today())
-# member_instance.get()
-print("_ _ _ _ Data of one member _ _ _ _")
-member_instance.retrieve(id = 4)             ####print(member_instance.retrieve(4))
-print("_ _ _ _ Deletion _ _ _ _")
-member_instance.delete( id = 9)
-
-# member_instance.get()
-print("_ _ _ _ updation_ _ _ _")
-member_instance.put(7,plan = "6 Month")
+# connection_instance = DbConnect()
+# print(connection_instance.get_connected())
+#
+# member_instance = GymMemberManagement()
+# # member_instance.get()
+# # member_instance.post(Name = "Nayana",Place = "Thrissur",Mobile = "98904369762",Plan = "1 Month",Fee = 2000,Joined_date= datetime.datetime.today())
+# # member_instance.get()
+# print("_ _ _ _ Data of one member _ _ _ _")
+# member_instance.retrieve(id = 4)             ####print(member_instance.retrieve(4))
+# print("_ _ _ _ Deletion _ _ _ _")
+# member_instance.delete( id = 9)
+#
+# # member_instance.get()
+# print("_ _ _ _ updation_ _ _ _")
+# member_instance.put(7,plan = "6 Month")
