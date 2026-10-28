@@ -32,8 +32,9 @@ class GymMemberManagement(DbConnect):
             self.cursor.execute(query)
             records = self.cursor.fetchall()
             # print(records)
-            for data in records:
-                print(data)
+            return records
+            # for data in records:
+            #     print(data)
         except Exception as e:
             print(e)
     def post(self,**kwargs):
